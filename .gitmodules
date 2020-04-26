@@ -1,0 +1,6 @@
+[submodule "vmat-4-api"]
+	path = vmat-4-api
+	url = https://github.com/GulDilin/vmat-4-api
+[submodule "vmat-4-vue"]
+	path = vmat-4-vue
+	url = https://github.com/GulDilin/vmat-4-vue
