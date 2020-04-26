@@ -1,0 +1,12 @@
+version: "2.0"
+services:
+        flask:
+                restart: always
+                build: ./vmat-4-api
+                ports:
+                        - "5000:5000"
+        vue:
+                restart: always
+                build: ./vmat-4-vue
+                ports:
+                        - "8080:8080"
